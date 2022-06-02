@@ -38,3 +38,94 @@ body{
 .jur:hover{
     transition: border-color 0.66s ease-out, font-size 0.3s ease-out;
 } 
+
+.nav img{
+    align-content: right;
+}
+
+.icon {
+    height: 40px;
+    margin: 20px;
+    margin-left: 800px;
+  }
+
+.hoi {
+    margin-top: 50px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+img {
+    border: 0;
+    border-top-color: initial;
+    border-top-style: initial;
+    border-top-width: 0px;
+    border-right-color: initial;
+    border-right-style: initial;
+    border-right-width: 0px;
+    border-bottom-color: initial;
+    border-bottom-style: initial;
+    border-bottom-width: 0px;
+    border-left-color: initial;
+    border-left-style: initial;
+    border-left-width: 0px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    display: block;
+    font-size: 0;
+    width: 100%;
+}
+
+a, body, button, html, input {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.image-contain .img {
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+.image-contain, .image-contain .img, .image-cover, .image-cover .img {
+    height: 100%;
+}
+.a-image .img {
+    display: block;
+    font-size: 0;
+    width: 100%;
+}
+img, svg {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+*, :after, :before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+.btn1{
+    background-color: red;
+    color: white;
+    border: none;
+    width: 20px;
+}
+
+.btn2{
+    background-color: green;
+    color: white;
+    border: none;
+    width: 20px;
+}
